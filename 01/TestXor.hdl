@@ -1,9 +1,0 @@
-CHIP TestXor {
-
-    IN a, b;
-    OUT out;
-
-    PARTS:
-    And(a=a, b=b, out=aAndb);
-    Not(in=aAndb, out=out);
-}
